@@ -13,7 +13,7 @@ public class Semaphores {
 // класс философа
 class Philosopher extends Thread {
     Semaphore sem; // семафор. Ограничивающий число философов
-    // кол-во приемов пищи
+    // кол-во приемов пищи efnjer
     int num = 0;
     // условный номер философа
     int id;
